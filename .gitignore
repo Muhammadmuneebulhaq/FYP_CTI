@@ -1,0 +1,87 @@
+# Data and Dataset Folders
+Data/
+Data_Backup/
+merged_final/
+validated_stix/
+results/
+relationship/
+extracted_images/
+Screenshots/
+
+# Model Files (large binary files)
+TIKG_model/
+model_weights.pth
+*.pt
+*.pth
+
+# Python and Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and Outputs
+*.log
+error_log.txt
+debug_logs/
+*.tmp
+
+# Cache and Temporary Files
+.cache/
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Project-specific temporary files
+test_*.py
+*_test.py
+temp/
+tmp/
+*.csv
+Entity-Extraction/rcATT/Dataset-Creation/URL_Content
+Entity-Extraction/rcATT/Models
