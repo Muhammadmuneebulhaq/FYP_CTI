@@ -8,11 +8,18 @@ relationship/
 extracted_images/
 Screenshots/
 
-# Model Files (large binary files)
+# DVC (Data Version Control)
+.dvc/
+.dvc/config.local
+.dvcignore
+*.dvc
+
+# Model Files (tracked by DVC)
 TIKG_model/
 model_weights.pth
 *.pt
 *.pth
+*.csv
 
 # Python and Virtual Environment
 __pycache__/
@@ -85,3 +92,5 @@ tmp/
 *.csv
 Entity-Extraction/rcATT/Dataset-Creation/URL_Content
 Entity-Extraction/rcATT/Models
+DVC_SETUP.md
+.env
