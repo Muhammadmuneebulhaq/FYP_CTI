@@ -12,7 +12,7 @@ Screenshots/
 .dvc/
 .dvc/config.local
 .dvcignore
-*.dvc
+!.dvc
 
 # Model Files (tracked by DVC)
 TIKG_model/
